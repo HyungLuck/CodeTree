@@ -10,7 +10,7 @@ public class Main {
         aEng = sc.nextInt();
         bEng = sc.nextInt();
 
-        if(amath > bmath && aEng > bEng )
+        if(amath >= bmath && aEng >= bEng )
             System.out.println("1");
         else
             System.out.println("0");
