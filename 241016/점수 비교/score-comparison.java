@@ -11,8 +11,8 @@ public class Main {
         bEng = sc.nextInt();
 
         if(amath > bmath && aEng > bEng )
-            System.out.println(1);
+            System.out.println("1");
         else
-            System.out.println(0);
+            System.out.println("0");
     }
 }
