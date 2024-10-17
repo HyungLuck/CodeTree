@@ -12,7 +12,7 @@ public class Main {
         else 
         System.out.print("BOY");}
 
-     if(a>0)
+     else
         {if(age>=19)
         System.out.print("WOMAN");
         
