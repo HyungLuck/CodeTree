@@ -10,7 +10,7 @@ public class Main {
         System.out.print(a);
     else if(b<=a && b<=c)
         System.out.print(b);
-    else if(c<=a && c<=b)
+    else (c<=a && c<=b)
         System.out.print(c);
     }
 }
