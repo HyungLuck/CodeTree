@@ -10,8 +10,8 @@ public class Main {
         System.out.print(i+" ");
     }
     else{
-        for(int i= 1; i>=n; i--)
-        System.out.print(i+" ");
+        for(int i= n; n>1; i--)
+        System.out.print(n+" ");
     }
     }
 }
