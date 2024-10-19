@@ -8,14 +8,15 @@ public class Main {
     int cntBok = 0;
     int cntToilet = 0;
 
-    for(int i = 3; i<=n; i++){
+    for(int i = 1; i<=n; i++){
     
-    if(i%2==0)
-            cntClass++;
-    if(i%3==0)
-            cntBok++;
+    
     if(i%12==0)
             cntToilet++;
+    else if(i%3==0)
+            cntBok++;
+    else if(i%2==0)
+            cntClass++;
 
             
     }
