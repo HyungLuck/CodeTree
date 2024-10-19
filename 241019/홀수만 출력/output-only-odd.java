@@ -5,7 +5,7 @@ public class Main {
     int a = sc.nextInt();
     int b = sc.nextInt();
 
-    for(int i =a; a<=b; a+=2)
-        System.out.print(a+" ");
+    for(int i =a; i<=b; i+=2)
+        System.out.print(i+" ");
     }
 }
