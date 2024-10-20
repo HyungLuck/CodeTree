@@ -14,11 +14,9 @@ public class Main {
         cnt ++;
         }
     }
-    if(cnt > 0){
+    
         avg= (double)sum/cnt;
-    } else{
-        avg = 0;
-    }
+    
     System.out.printf("%d %.1f",sum, avg);
 
     }
